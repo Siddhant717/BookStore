@@ -11,11 +11,11 @@ namespace BookStoreApp.Controllers
     public class AdminController : Controller
     {
         IAdminBL adminBL;
-        private IConfiguration _config;
+        private IConfiguration config;
         public AdminController(IAdminBL adminBL, IConfiguration config)
         {
             this.adminBL = adminBL;
-            this._config = config;
+            this.config = config;
         }
 
         [HttpPost("SignIn")]

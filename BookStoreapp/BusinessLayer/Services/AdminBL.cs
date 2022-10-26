@@ -14,7 +14,6 @@ namespace BusinessLayer.Services
         {
             this.adminRL = adminRL;
         }
-
         public string SignIn(AdminModel adminModel)
         {
             try

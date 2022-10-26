@@ -13,9 +13,7 @@ namespace RepositoryLayer.Services
 {
     public class AdminRL : IAdminRL
     {
-        
-
-        private IConfiguration config;
+      private IConfiguration config;
         public AdminRL(IConfiguration Config)
         {
 
@@ -51,9 +49,7 @@ namespace RepositoryLayer.Services
                 }
 
 
-            }
-
-            catch (Exception ex)
+            }catch (Exception ex)
             {
                 throw ex;
             }
