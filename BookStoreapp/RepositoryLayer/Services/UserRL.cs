@@ -118,8 +118,6 @@ namespace RepositoryLayer.Services
             {
                 throw ex;
             }
-
-
         }
 
         public bool ForgotPassword(string emailid)
