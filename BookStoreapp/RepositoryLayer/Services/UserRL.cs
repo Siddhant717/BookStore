@@ -229,9 +229,6 @@ namespace RepositoryLayer.Services
             {
                 throw ex;
             }
-
-
-
         }
 
         public bool ResetPassword(string email, ResetPasswordModel resetpasswordModel)
