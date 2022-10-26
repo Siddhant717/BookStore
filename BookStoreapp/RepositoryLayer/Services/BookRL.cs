@@ -120,5 +120,51 @@ namespace RepositoryLayer.Services
             }
            
         }
+
+        public List<BookModel> getAllBooks()
+        {
+            SqlConnection connection = new SqlConnection(config["ConnectionStrings:BookStore"]);
+            try
+            {
+
+                SqlCommand com = new SqlCommand("sp_GetAllBooks", connection);
+                com.CommandType = System.Data.CommandType.StoredProcedure;
+
+               
+
+                connection.Open();
+                SqlDataReader reader = com.ExecuteReader();
+                List<BookModel> allbooks = new List<BookModel>();
+                while (reader.Read())
+                {
+                    var books = new BookModel();
+                    books.BookId = reader.GetInt32(0);
+                    books.BookName = reader.GetString(1);
+                    books.AuthorName = reader.GetString(2);
+                    books.Description = reader.GetString(3);
+                    books.ActualPrice = reader.GetDecimal(4);
+                    books.DiscountedPrice = reader.GetDecimal(5);
+                    books.Quantity = reader.GetInt32(6);
+                    books.BookImage = reader.GetString(7);
+                    books.Ratings = reader.GetDouble(8);
+                    books.RatingCount = reader.GetInt32(9);
+                    allbooks.Add(books);
+                }
+               
+                connection.Close();
+                return allbooks;
+                
+
+            }
+
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
     }
 }

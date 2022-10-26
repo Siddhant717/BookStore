@@ -82,5 +82,28 @@ namespace BookStoreApp.Controllers
                 throw ex;
             }
         }
+
+        [Authorize]
+        [HttpGet("GetAllBooks")]
+        public IActionResult GetAllBooks()
+        {
+            try
+            {
+                var result = this.bookBL.getAllBooks();
+                if (result!=null)
+                {
+                    return this.Ok(new { sucess = true, status = 200, data=result });
+                }
+                else
+                {
+                    return BadRequest(new { sucess = false, message = "Could not fetched" });
+
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
