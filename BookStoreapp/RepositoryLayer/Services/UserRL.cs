@@ -201,7 +201,6 @@ namespace RepositoryLayer.Services
 
             }
         }
-
         private string GenerateToken(string emailid)
         {
             try
