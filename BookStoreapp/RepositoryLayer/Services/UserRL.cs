@@ -15,7 +15,6 @@ namespace RepositoryLayer.Services
     public class UserRL : IUserRL
     {
        
-
         private IConfiguration config;
         public UserRL(IConfiguration Config)
         {
@@ -78,8 +77,6 @@ namespace RepositoryLayer.Services
                 {
                     return null;
                 }
-
-
             }
 
             catch (Exception ex)
