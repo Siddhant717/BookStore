@@ -102,6 +102,8 @@ namespace BookStoreApp
             services.AddTransient<IUserBL, UserBL>();
             services.AddTransient<IAdminRL, AdminRL>();
             services.AddTransient<IAdminBL, AdminBL>();
+            services.AddTransient<IBookRL, BookRL>();
+            services.AddTransient<IBookBL, BookBL>();
 
         }
 
