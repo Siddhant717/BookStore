@@ -85,8 +85,6 @@ namespace BookStoreApp.Controllers
             {
                 throw ex;
             }
-
-
         }
         [Authorize(Roles = Role.Users)]
         [HttpGet("GetAllCarts")]

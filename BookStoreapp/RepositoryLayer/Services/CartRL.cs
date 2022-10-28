@@ -136,9 +136,7 @@ namespace RepositoryLayer.Services
                 return carts;
 
 
-            }
-
-            catch (Exception ex)
+            }catch (Exception ex)
             {
                 throw ex;
             }
