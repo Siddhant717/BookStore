@@ -106,7 +106,8 @@ namespace BookStoreApp
             services.AddTransient<IBookBL, BookBL>();
             services.AddTransient<ICartRL, CartRL>();
             services.AddTransient<ICartBL, CartBL>();
-
+            services.AddTransient<IWhishListRL, WhishListRL>();
+            services.AddTransient<IWhishListBL, WhishListBL>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

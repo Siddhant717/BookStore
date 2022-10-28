@@ -70,6 +70,7 @@ namespace RepositoryLayer.Services
                     {
                     new Claim("Email", emailId),
                     new Claim("userId",userId.ToString()),
+                    new Claim(ClaimTypes.Role,"Admin"),
                     }),
                     Expires = DateTime.UtcNow.AddHours(2),
 
