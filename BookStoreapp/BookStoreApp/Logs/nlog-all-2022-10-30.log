@@ -1,0 +1,216 @@
+2022-10-30 23:14:55.8773|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2022-10-30 23:15:03.2953|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-10-30 23:15:04.6580|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-f46dc199-8acf-4aab-9a44-58a0f8c859f3.xml'.
+2022-10-30 23:15:09.6151|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {f46dc199-8acf-4aab-9a44-58a0f8c859f3}.
+2022-10-30 23:15:11.3538|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} with expiration date 2022-11-24 11:19:41Z as default key.
+2022-10-30 23:15:14.4744|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.22.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-10-30 23:15:14.4829|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2022-10-30 23:15:14.6162|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.22.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-10-30 23:15:14.6227|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2022-10-30 23:15:14.6227|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2022-10-30 23:15:14.6408|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} as the default key.
+2022-10-30 23:15:14.6408|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} was loaded during application startup.
+2022-10-30 23:15:34.4855|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BookStoreApp
+2022-10-30 23:15:34.4855|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-30 23:15:34.4855|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-30 23:15:35.5514|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-10-30 23:15:35.5598|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-10-30 23:15:35.5705|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Bookstoreproject\BookStoreapp\BookStoreApp
+2022-10-30 23:15:35.7033|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2022-10-30 23:15:39.1891|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2022-10-30 23:17:39.5118|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2022-10-30 23:17:40.7042|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-10-30 23:17:41.0428|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-f46dc199-8acf-4aab-9a44-58a0f8c859f3.xml'.
+2022-10-30 23:17:41.3318|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {f46dc199-8acf-4aab-9a44-58a0f8c859f3}.
+2022-10-30 23:17:41.5961|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} with expiration date 2022-11-24 11:19:41Z as default key.
+2022-10-30 23:17:42.1145|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.22.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-10-30 23:17:42.1182|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2022-10-30 23:17:42.1182|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.22.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-10-30 23:17:42.1182|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2022-10-30 23:17:42.1182|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2022-10-30 23:17:42.1387|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} as the default key.
+2022-10-30 23:17:42.1387|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} was loaded during application startup.
+2022-10-30 23:17:48.3339|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BookStoreApp
+2022-10-30 23:17:48.3366|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-30 23:17:48.3366|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-30 23:17:48.6038|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-10-30 23:17:48.6718|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-10-30 23:17:48.6718|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Bookstoreproject\BookStoreapp\BookStoreApp
+2022-10-30 23:17:48.6718|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2022-10-30 23:17:49.2243|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2022-10-30 23:17:49.9015|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2022-10-30 23:17:49.9015|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-10-30 23:17:50.1792|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger'
+2022-10-30 23:17:50.1792|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-10-30 23:20:05.8803|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2022-10-30 23:20:06.9998|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-10-30 23:20:07.4423|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-f46dc199-8acf-4aab-9a44-58a0f8c859f3.xml'.
+2022-10-30 23:20:08.3601|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {f46dc199-8acf-4aab-9a44-58a0f8c859f3}.
+2022-10-30 23:20:09.2089|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} with expiration date 2022-11-24 11:19:41Z as default key.
+2022-10-30 23:20:09.5587|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.22.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-10-30 23:20:09.5754|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2022-10-30 23:20:09.5754|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.22.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-10-30 23:20:09.5754|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2022-10-30 23:20:09.5895|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2022-10-30 23:20:09.5895|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} as the default key.
+2022-10-30 23:20:09.5895|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} was loaded during application startup.
+2022-10-30 23:20:13.5862|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BookStoreApp
+2022-10-30 23:20:13.5862|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-30 23:20:13.5862|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-30 23:20:13.6493|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-10-30 23:20:13.6493|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-10-30 23:20:13.6493|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Bookstoreproject\BookStoreapp\BookStoreApp
+2022-10-30 23:20:13.6762|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2022-10-30 23:20:14.3303|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2022-10-30 23:20:14.6302|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2022-10-30 23:20:14.6302|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-10-30 23:20:14.8581|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger'
+2022-10-30 23:20:14.8581|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-10-30 23:20:20.1469|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-10-30 23:20:20.7520|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18014398515387564231" disconnecting.
+2022-10-30 23:20:20.7520|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2022-10-30 23:20:20.7520|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 6352.6787ms 301 
+2022-10-30 23:20:20.7576|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-10-30 23:20:20.7576|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2022-10-30 23:20:20.7576|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-10-30 23:20:20.7576|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-10-30 23:20:21.8161|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2022-10-30 23:20:23.7299|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2022-10-30 23:20:23.7598|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3005.082ms 200 text/html;charset=utf-8
+2022-10-30 23:20:24.1638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2022-10-30 23:20:24.1638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2022-10-30 23:20:24.1638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2022-10-30 23:20:24.1638|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-10-30 23:20:24.1638|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-10-30 23:20:24.1638|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2022-10-30 23:20:24.1638|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-10-30 23:20:24.1638|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css'
+2022-10-30 23:20:24.1638|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-10-30 23:20:24.1638|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-10-30 23:20:24.1638|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2022-10-30 23:20:24.1638|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-10-30 23:20:24.4332|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/_framework/aspnetcore-browser-refresh.js  
+2022-10-30 23:20:24.4332|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 10.8386ms 200 application/javascript; charset=utf-8
+2022-10-30 23:20:24.8268|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-10-30 23:20:24.8268|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-10-30 23:20:24.8268|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-10-30 23:20:25.0266|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2022-10-30 23:20:25.0266|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2022-10-30 23:20:25.0266|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2022-10-30 23:20:25.1831|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-10-30 23:20:25.1831|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-10-30 23:20:25.1831|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1020.4324ms 200 text/css
+2022-10-30 23:20:25.1831|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1019.2786ms 200 application/javascript
+2022-10-30 23:20:25.6789|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-10-30 23:20:25.6805|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1516.7529ms 200 application/javascript
+2022-10-30 23:20:27.6366|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2022-10-30 23:20:27.6366|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-10-30 23:20:27.6366|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-30 23:20:27.6366|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-10-30 23:20:27.6366|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-10-30 23:20:28.8665|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1229.9797ms 200 application/json;charset=utf-8
+2022-10-30 23:20:56.1188|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 POST https://localhost:44350/Admin/SignIn application/json 79
+2022-10-30 23:20:56.1188|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-10-30 23:20:56.1188|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Admin/SignIn'
+2022-10-30 23:20:56.1406|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BookStoreApp.Controllers.AdminController.SignIn (BookStoreApp)' with route pattern 'Admin/SignIn' is valid for the request path '/Admin/SignIn'
+2022-10-30 23:20:56.1406|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BookStoreApp.Controllers.AdminController.SignIn (BookStoreApp)'
+2022-10-30 23:20:56.1406|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-10-30 23:20:56.2189|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BookStoreApp.Controllers.AdminController.SignIn (BookStoreApp)'
+2022-10-30 23:20:56.3620|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2022-10-30 23:20:56.6035|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignIn", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SignIn(CommonLayer.Model.AdminModel) on controller BookStoreApp.Controllers.AdminController (BookStoreApp).
+2022-10-30 23:20:56.6035|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-10-30 23:20:56.6035|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2022-10-30 23:20:56.6035|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2022-10-30 23:20:56.6035|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-10-30 23:20:56.6035|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2022-10-30 23:20:56.6035|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BookStoreApp.Controllers.AdminController (BookStoreApp)
+2022-10-30 23:20:56.6317|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BookStoreApp.Controllers.AdminController (BookStoreApp)
+2022-10-30 23:20:56.7191|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'adminModel' of type 'CommonLayer.Model.AdminModel' ...
+2022-10-30 23:20:56.7426|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'adminModel' of type 'CommonLayer.Model.AdminModel' using the name '' in request data ...
+2022-10-30 23:20:56.7426|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-10-30 23:20:56.8726|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'CommonLayer.Model.AdminModel'
+2022-10-30 23:20:56.8726|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'adminModel' of type 'CommonLayer.Model.AdminModel'.
+2022-10-30 23:20:56.8726|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'adminModel' of type 'CommonLayer.Model.AdminModel'.
+2022-10-30 23:20:56.8726|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'adminModel' of type 'CommonLayer.Model.AdminModel' ...
+2022-10-30 23:20:56.8842|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'adminModel' of type 'CommonLayer.Model.AdminModel'.
+2022-10-30 23:20:56.8842|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-10-30 23:20:56.9014|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-10-30 23:20:56.9014|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-10-30 23:20:56.9014|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-10-30 23:20:56.9014|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-10-30 23:20:56.9014|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStoreApp.Controllers.AdminController.SignIn (BookStoreApp) - Validation state: Valid
+2022-10-30 23:20:56.9237|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStoreApp.Controllers.AdminController.SignIn (BookStoreApp) with arguments (CommonLayer.Model.AdminModel)
+2022-10-30 23:21:07.5793|INFO|BookStoreApp.Controllers.AdminController|  logged in successfully with email Id:siddhant20shrivastava@gmail.com
+2022-10-30 23:21:07.6084|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method BookStoreApp.Controllers.AdminController.SignIn (BookStoreApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10678.2651ms.
+2022-10-30 23:21:07.6084|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-10-30 23:21:07.6084|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-10-30 23:21:07.6084|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-10-30 23:21:07.6084|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-10-30 23:21:07.6084|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-10-30 23:21:07.6084|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-10-30 23:21:07.6084|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-10-30 23:21:07.6084|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2022-10-30 23:21:07.6186|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2022-10-30 23:21:07.6186|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2022-10-30 23:21:07.6186|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-30 23:21:07.6186|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-30 23:21:07.6186|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-10-30 23:21:07.6186|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-10-30 23:21:07.6830|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2022-10-30 23:21:07.6830|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-10-30 23:21:07.6830|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-10-30 23:21:07.6830|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BookStoreApp.Controllers.AdminController.SignIn (BookStoreApp) in 11078.5332ms
+2022-10-30 23:21:07.6830|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BookStoreApp.Controllers.AdminController.SignIn (BookStoreApp)'
+2022-10-30 23:21:07.6830|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 11649.6919ms 200 application/json; charset=utf-8
+2022-10-30 23:24:33.0751|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 POST https://localhost:44350/User/SignIn application/json 70
+2022-10-30 23:24:33.0781|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-10-30 23:24:33.0781|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/User/SignIn'
+2022-10-30 23:24:33.0887|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BookStoreApp.Controllers.UserController.SignIn (BookStoreApp)' with route pattern 'User/SignIn' is valid for the request path '/User/SignIn'
+2022-10-30 23:24:33.0887|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BookStoreApp.Controllers.UserController.SignIn (BookStoreApp)'
+2022-10-30 23:24:33.0887|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-10-30 23:24:33.1011|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BookStoreApp.Controllers.UserController.SignIn (BookStoreApp)'
+2022-10-30 23:24:33.1233|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "SignIn", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SignIn(CommonLayer.Model.UserSignIn) on controller BookStoreApp.Controllers.UserController (BookStoreApp).
+2022-10-30 23:24:33.1233|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2022-10-30 23:24:33.1233|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2022-10-30 23:24:33.1233|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2022-10-30 23:24:33.1233|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2022-10-30 23:24:33.1233|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2022-10-30 23:24:33.1233|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BookStoreApp.Controllers.UserController (BookStoreApp)
+2022-10-30 23:24:33.1233|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BookStoreApp.Controllers.UserController (BookStoreApp)
+2022-10-30 23:24:33.1233|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'userSignIn' of type 'CommonLayer.Model.UserSignIn' ...
+2022-10-30 23:24:33.1233|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'userSignIn' of type 'CommonLayer.Model.UserSignIn' using the name '' in request data ...
+2022-10-30 23:24:33.1233|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-10-30 23:24:33.1361|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'CommonLayer.Model.UserSignIn'
+2022-10-30 23:24:33.1361|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'userSignIn' of type 'CommonLayer.Model.UserSignIn'.
+2022-10-30 23:24:33.1361|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'userSignIn' of type 'CommonLayer.Model.UserSignIn'.
+2022-10-30 23:24:33.1361|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'userSignIn' of type 'CommonLayer.Model.UserSignIn' ...
+2022-10-30 23:24:33.1361|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'userSignIn' of type 'CommonLayer.Model.UserSignIn'.
+2022-10-30 23:24:33.1361|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-10-30 23:24:33.1361|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-10-30 23:24:33.1361|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-10-30 23:24:33.1361|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-10-30 23:24:33.1361|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-10-30 23:24:33.1361|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStoreApp.Controllers.UserController.SignIn (BookStoreApp) - Validation state: Valid
+2022-10-30 23:24:33.1361|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method BookStoreApp.Controllers.UserController.SignIn (BookStoreApp) with arguments (CommonLayer.Model.UserSignIn)
+2022-10-30 23:24:33.2174|INFO|BookStoreApp.Controllers.UserController|  logged in successfully with email Id:siddhant450@gmail.com
+2022-10-30 23:24:33.2174|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method BookStoreApp.Controllers.UserController.SignIn (BookStoreApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 78.9313ms.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2022-10-30 23:24:33.2174|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2022-10-30 23:24:33.2174|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2022-10-30 23:24:33.2174|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-30 23:24:33.2174|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-30 23:24:33.2174|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-10-30 23:24:33.2174|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType2`4[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-10-30 23:24:33.2174|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2022-10-30 23:24:33.2174|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BookStoreApp.Controllers.UserController.SignIn (BookStoreApp) in 96.2672ms
+2022-10-30 23:24:33.2174|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BookStoreApp.Controllers.UserController.SignIn (BookStoreApp)'
+2022-10-30 23:24:33.2174|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 155.5955ms 200 application/json; charset=utf-8

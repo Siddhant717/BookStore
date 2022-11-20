@@ -2,7 +2,13 @@
 using CommonLayer.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Caching.Memory;
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace BookStoreApp.Controllers
 {
@@ -11,9 +17,13 @@ namespace BookStoreApp.Controllers
     public class BookController : Controller
     {
         IBookBL bookBL;
-        public BookController(IBookBL bookBL)
+        private readonly IDistributedCache _cache;
+        private readonly IMemoryCache _memoryCache;
+        public BookController(IBookBL bookBL, IDistributedCache cache, IMemoryCache memoryCache)
         {
             this.bookBL = bookBL;
+            this._cache = cache;
+            this._memoryCache = memoryCache;
         }
 
         [Authorize(Roles = Role.Admin)]
@@ -127,5 +137,42 @@ namespace BookStoreApp.Controllers
                 throw ex;
             }
         }
+        [Authorize]
+        [HttpGet("GetAllBooksUsingRedisCache")]
+        public IActionResult GetAllBooksUsingRedisCache()
+        
+        
+        
+        {
+            try
+            {
+                string CacheKey = "BookList";
+                string serializeNoteList;
+                var NoteList = new List<BookModel>();
+                var RedisNoteList = _cache.Get(CacheKey);
+
+                if (RedisNoteList != null)
+                {
+                    serializeNoteList = Encoding.UTF8.GetString(RedisNoteList);
+                    NoteList = JsonConvert.DeserializeObject<List<BookModel>>(serializeNoteList);
+                }
+                else
+                {
+                   
+                    NoteList = this.bookBL.getAllBooks();
+                    serializeNoteList = JsonConvert.SerializeObject(NoteList);
+                    RedisNoteList = Encoding.UTF8.GetBytes(serializeNoteList);
+                    var option = new DistributedCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromMinutes(20)).SetAbsoluteExpiration(TimeSpan.FromHours(6));
+                    _cache.Set(CacheKey, RedisNoteList, option);
+
+                }
+                return this.Ok(new { success = true, status = 200, noteList = NoteList });
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
+    
 }

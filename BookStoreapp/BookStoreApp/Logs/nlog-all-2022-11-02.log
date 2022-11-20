@@ -1,0 +1,67 @@
+2022-11-02 15:44:46.1214|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2022-11-02 15:44:49.1185|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-02 15:44:49.2682|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys\key-f46dc199-8acf-4aab-9a44-58a0f8c859f3.xml'.
+2022-11-02 15:44:52.4002|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {f46dc199-8acf-4aab-9a44-58a0f8c859f3}.
+2022-11-02 15:44:54.8647|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} with expiration date 2022-11-24 11:19:41Z as default key.
+2022-11-02 15:44:56.7624|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.22.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-02 15:44:56.9235|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2022-11-02 15:44:57.0937|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.22.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-11-02 15:44:57.2564|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2022-11-02 15:44:57.2564|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2022-11-02 15:44:57.2653|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} as the default key.
+2022-11-02 15:44:57.2653|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {f46dc199-8acf-4aab-9a44-58a0f8c859f3} was loaded during application startup.
+2022-11-02 15:45:07.6496|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BookStoreApp
+2022-11-02 15:45:07.6496|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-02 15:45:07.6496|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-02 15:45:08.0087|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-11-02 15:45:08.0087|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-11-02 15:45:08.0156|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Bookstoreproject\BookStoreapp\BookStoreApp
+2022-11-02 15:45:08.0156|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2022-11-02 15:45:09.7353|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger  
+2022-11-02 15:45:09.9384|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2022-11-02 15:45:09.9384|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-02 15:45:10.4299|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger'
+2022-11-02 15:45:10.4380|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-02 15:45:14.4733|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-11-02 15:45:14.9920|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18014398519682531418" disconnecting.
+2022-11-02 15:45:15.0021|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 5277.6728ms 301 
+2022-11-02 15:45:15.0207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger/index.html  
+2022-11-02 15:45:15.0207|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-02 15:45:15.0207|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2022-11-02 15:45:15.0207|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-02 15:45:15.0207|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-11-02 15:45:15.4568|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2022-11-02 15:45:17.9235|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2022-11-02 15:45:17.9670|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2945.6961ms 200 text/html;charset=utf-8
+2022-11-02 15:45:18.0175|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-bundle.js  
+2022-11-02 15:45:18.0175|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-02 15:45:18.0175|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui.css  
+2022-11-02 15:45:18.0175|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-02 15:45:18.0175|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css'
+2022-11-02 15:45:18.0175|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-02 15:45:18.0175|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2022-11-02 15:45:18.0175|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-02 15:45:18.1726|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger/swagger-ui-standalone-preset.js  
+2022-11-02 15:45:18.1726|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-02 15:45:18.1726|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2022-11-02 15:45:18.1726|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-02 15:45:18.2429|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-11-02 15:45:18.2429|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-11-02 15:45:18.2429|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-11-02 15:45:18.2518|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/_framework/aspnetcore-browser-refresh.js  
+2022-11-02 15:45:18.2518|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 5.0872ms 200 application/javascript; charset=utf-8
+2022-11-02 15:45:18.2742|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2022-11-02 15:45:18.2742|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2022-11-02 15:45:18.2742|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2022-11-02 15:45:18.3097|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-11-02 15:45:18.3097|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-11-02 15:45:18.3097|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 138.0013ms 200 application/javascript
+2022-11-02 15:45:18.3097|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 291.2329ms 200 text/css
+2022-11-02 15:45:18.3097|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-11-02 15:45:18.3097|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 303.2829ms 200 application/javascript
+2022-11-02 15:45:19.2824|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44350/swagger/v1/swagger.json  
+2022-11-02 15:45:19.2824|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2022-11-02 15:45:19.2824|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2022-11-02 15:45:19.2824|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2022-11-02 15:45:19.2824|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2022-11-02 15:45:19.7941|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 512.0322ms 200 application/json;charset=utf-8

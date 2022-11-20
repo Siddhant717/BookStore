@@ -34,6 +34,15 @@ namespace BookStoreApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddMemoryCache();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(
+                name: "AllowOrigin",
+              builder => {
+                  builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+              });
+            });
             //swagger code
             services.AddSwaggerGen(swagger =>
             {
@@ -110,6 +119,16 @@ namespace BookStoreApp
             services.AddTransient<IWhishListBL, WhishListBL>();
             services.AddTransient<IAddressRL, AddressRL>();
             services.AddTransient<IAddressBL,AddressBL>();
+            services.AddTransient<IOrderRL, OrderRL>();
+            services.AddTransient<IOrderBL, OrderBL>();
+            services.AddTransient<IFeedBackRL, FeedBackRL>();
+            services.AddTransient<IFeedBackBL, FeedBackBL>();
+            services.AddDistributedRedisCache(
+              options =>
+              {
+                  options.Configuration = "Localhost:6379";
+              }
+              );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -119,7 +138,7 @@ namespace BookStoreApp
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors("AllowOrigin");
             app.UseHttpsRedirection();
 
             app.UseRouting();
